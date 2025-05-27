@@ -25,6 +25,7 @@ function addTask() {
   cmp.style.marginLeft="10px";
   cmp.onclick = function () {
     li.style.backgroundColor="green";
+    li.style.textDecoration="Line-through";
     cmp.remove();  
   };
 
